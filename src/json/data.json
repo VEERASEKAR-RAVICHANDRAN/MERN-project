@@ -1,0 +1,84 @@
+{
+    "properties": [
+      {
+        "id": 1,
+        "title": "Luxury Villa in Beverly Hills",
+        "price": 3500000,
+        "address": {
+          "street": "123 Sunset Blvd",
+          "city": "Beverly Hills",
+          "state": "CA",
+          "zip": "90210"
+        },
+        "bedrooms": 5,
+        "bathrooms": 4,
+        "propertyType": "Villa",
+        "description": "A stunning luxury villa with a pool and panoramic views.",
+        "features": [
+          "Swimming Pool",
+          "Garage",
+          "Garden",
+          "Fireplace"
+        ],
+        "images": [
+          "https://example.com/images/villa1_1.jpg",
+          "https://example.com/images/villa1_2.jpg",
+          "https://example.com/images/villa1_3.jpg"
+        ],
+        "listingDate": "2024-01-15"
+      },
+      {
+        "id": 2,
+        "title": "Modern Apartment in New York",
+        "price": 1200000,
+        "address": {
+          "street": "456 Park Ave",
+          "city": "New York",
+          "state": "NY",
+          "zip": "10022"
+        },
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "propertyType": "Apartment",
+        "description": "A stylish apartment in the heart of the city with stunning views.",
+        "features": [
+          "Gym",
+          "Doorman",
+          "Balcony",
+          "Central Air"
+        ],
+        "images": [
+          "https://example.com/images/apartment1_1.jpg",
+          "https://example.com/images/apartment1_2.jpg",
+          "https://example.com/images/apartment1_3.jpg"
+        ],
+        "listingDate": "2024-02-20"
+      },
+      {
+        "id": 3,
+        "title": "Cozy Cottage in the Woods",
+        "price": 450000,
+        "address": {
+          "street": "789 Pine Rd",
+          "city": "Aspen",
+          "state": "CO",
+          "zip": "81611"
+        },
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "propertyType": "Cottage",
+        "description": "A charming cottage surrounded by nature, perfect for a getaway.",
+        "features": [
+          "Fireplace",
+          "Deck",
+          "Wooded Lot"
+        ],
+        "images": [
+          "https://example.com/images/cottage1_1.jpg",
+          "https://example.com/images/cottage1_2.jpg"
+        ],
+        "listingDate": "2024-03-05"
+      }
+    ]
+  }
+  

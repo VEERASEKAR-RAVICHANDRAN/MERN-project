@@ -1,0 +1,15 @@
+.heading{
+    text-decoration: underline;
+    text-decoration-color: yellow;
+    text-decoration-thickness: 4px;
+    /* margin-top: 35px; */
+    shape-margin: 5px;
+
+}
+@media (max-width:800px) {
+    .show{
+        /* width: 200px; */
+        display: none;
+    }
+    
+  }

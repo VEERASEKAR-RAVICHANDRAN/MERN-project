@@ -1,0 +1,101 @@
+.multiselect {
+    position: relative; /* Position relative for dropdown positioning */
+   }
+  
+  .dropdown-toggle {
+    /* background-color: #d3e4f5; Button background color */
+    color: black; /* Button text color */
+    background-color: transparent;
+    margin-top: 13px;
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 12px; /* Padding for the button */
+    cursor: pointer; /* Pointer cursor */
+    width: 35%; /* Full width */
+    text-align: left; /* Align text to the left */
+    font-size: 16px; /* Font size for the button */
+    transition: background-color 0.3s; /* Transition effect */
+  }
+  
+  /* .dropdown-toggle:hover {
+    background-color:  #d82626; Darker blue on hover
+  } */
+  
+  .options {
+    position: absolute; /* Position absolute for dropdown */
+    background-color: white; /* Dropdown background color */
+    border: 1px solid #ccc; /* Border for dropdown */
+    border-radius: 5px; /* Rounded corners */
+    z-index: 1000; /* Ensure dropdown appears above other elements */
+    width: 50%; /* Full width */
+    margin-top: 5px; /* Space between button and dropdown */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    animation: fadeIn 0.2s; /* Animation for dropdown appearance */
+    display: none; /* Hide dropdown by default */
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .dropdown-toggle:hover + .options,
+  .options:hover {
+    display: block; /* Show dropdown on hover */
+  }
+  
+  .option {
+    background-color: #f8f9fa; /* Background color for options */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px; /* Padding for options */
+    margin: 5px; /* Space between options */
+    cursor: pointer; /* Pointer cursor */
+    transition: background-color 0.3s; /* Transition effect */
+    width: calc(100% - 10px); /* Full width minus margin */
+    text-align: left; /* Align text to the left */
+    font-size: 14px; /* Font size for options */
+  }
+  
+  .option:hover {
+    background-color:  #d82626ac; /* Light gray on hover */
+  }
+  
+  .option.selected {
+    background-color:  #d82626; /* Background color for selected option */
+    color: white; /* Text color for selected option */
+  }
+  
+  .inputs {
+    margin-top: 15px; /* Space above input fields */
+  }
+  
+  .input-field {
+    margin-bottom: 10px; /* Space between input fields */
+    display: flex; /* Flexbox for label and input */
+    align-items: center; /* Center align items */
+  }
+  
+  .input-field label {
+    margin-right: 10px; /* Space between label and input */
+    font-weight: bold; /* Bold font for labels */
+  }
+  
+  .input-field input {
+    padding: 8px; /* Padding for input fields */
+    border: 1px solid #ccc; /* Border for input fields */
+    border-radius: 5px; /* Rounded corners */
+    width: 60px; /* Fixed width for input fields */
+    font-size: 14px; /* Font size for input fields */
+  }
+  
+  .input-field input:focus {
+    border-color: #007bff; /* Change border color on focus */
+    outline: none; /* Remove outline */
+  }

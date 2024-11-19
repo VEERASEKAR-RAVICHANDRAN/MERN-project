@@ -1,0 +1,130 @@
+
+  * {
+    box-sizing: border-box;
+  }
+  .display{
+    display: inline;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    /* font-size: small; */
+  }
+  
+  .dropbtn1 {
+    background-color: white;
+    border-radius: 5px 5px 0px 0px;
+    color: black;
+    padding: 10px 18px;
+    font-size: 14px;
+    border: none;
+    word-spacing: 1px;
+    cursor: pointer;
+  }
+  a{
+    text-decoration: none !important;
+  }
+  
+  .dropdown-content1 {
+    display: none;
+    font-size: 16px;
+    justify-content: center;
+    width: 900px;
+    display: none;
+    text-align: center;
+    border-radius: 0px 10px 10px 10px;
+    position: absolute;
+    background-color: #f9f9f9;
+    /* text-decoration: none; */
+    
+    min-width: 160px;
+    box-shadow: 0px 8px 13px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .help-width{
+    width: 200px;
+  }
+  .advice-width{
+    width: 350px;
+  }
+
+  
+  .dropdown:hover .dropdown-content1  {
+    display: block;
+    box-shadow: 0px 0px 2px rgb(22, 22, 22);
+
+    /* background-color: #f1f1f1; */
+  }
+
+  .dropdown:hover .dropbtn1 {
+    /* display: block; */
+    box-shadow: 0px 0px 2px black;
+    background-color: #f1f1f1;
+    color: #d82626;
+    
+  }
+  .margin-for-navitem{
+    /* float: inline-end; */
+    margin-left: 500px;
+  }
+  
+  .dropdown-content1 a {
+    color: black;
+    padding: 8px 19px;
+    text-decoration: none;
+    display: block;
+    font-size: 14px;
+    text-align: left;
+    font-weight: lighter;
+  }
+  
+  .dropdown-content1 a:hover {
+    color: #d82626;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 600px) {
+    .dropbtn1 {
+      width: 100%;
+    }
+    .display{
+      display: none;
+    }
+    .margin-for-navitem{
+      margin-left: none;
+    }
+  
+    .dropdown-content1 {
+      position: static;
+      min-width: auto;
+    }
+  }
+  @media (max-width: 1024px){
+    .display{
+      display: inline-block;
+    }
+  }
+
+.mb-prime{
+  border: 1px solid rgb(255, 253, 253);
+  background-color: rgb(24, 23, 23);
+  border-width: 5px;
+  border-radius: 5px;
+  color: #f1f1f1;
+  /* width: 70%; */
+}
+.width{
+  /* width: 350px; */
+  margin-left: 30px;
+}
+@media (max-width:1000px) {
+  .dropdown-show{
+      display: none;
+  }
+  
+}

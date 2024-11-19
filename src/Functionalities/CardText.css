@@ -1,0 +1,32 @@
+.CardText1:hover{
+    box-shadow: 0px 1px 3px black;
+    border: 1px solid rgb(243, 243, 135);
+    /* transition-delay: 50ms; */
+}
+.CardText1{
+    border-color: transparent;
+    
+}
+.cardlink{
+    color: #d82626;
+}
+.CardText1:hover .cardlink{
+   font-size: 16px;
+   color: #c93737;
+} 
+
+.designForTitle{
+    
+        background: linear-gradient(to top, rgb(248, 14, 14), rgb(245, 245, 8));
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        font-size: xx-large;
+        font-weight:500;
+        
+    
+}
+
+
+
+  

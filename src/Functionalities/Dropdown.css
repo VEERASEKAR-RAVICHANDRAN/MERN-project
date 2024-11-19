@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    width: 100%;
+    height: auto;
+  }
+  li{
+    font-size: small;
+    font-weight: normal;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropbtn {
+    /* background-color: #d82626; */
+    background-color: transparent;
+    row-gap: 5px;
+    border-radius: 5px 5px 0px 0px;
+    color: white;
+    padding: 10px 16px;
+    /* margin-left: 9px; */
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown-content {
+    display: none;
+    width:800px;
+    display: none;
+    /* text-decoration: none; */
+    border-radius: 0px 10px 10px 10px;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    
+  }
+  ul{
+    text-decoration: none;
+  }
+
+  
+  .dropdown:hover .dropdown-content  {
+    display: block;
+    /* width: 850px; */
+    /* background-color: #f1f1f1; */
+  }
+
+  .dropdown:hover .dropbtn {
+    /* display: block; */
+    background-color: #f1f1f1;
+    color: #d82626;
+    
+  }
+  .margin-for-navitem{
+    /* float: inline-end; */
+    margin-left: 500px;
+  }
+  .dropdown-content p{
+    padding: 2px 28px;
+    
+  }
+  .dropdown-content a {
+    color: black;
+    padding: 2px 28px;
+    /* text-decoration: none; */
+    display: block;
+    font-size: 15px;
+  }
+  
+  .dropdown-content a:hover {
+    /* background-color: #f8afaf; */
+    color: red;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 600px) {
+    .dropbtn {
+      width: 100%;
+    }
+    .margin-for-navitem{
+      /* margin-left: none; */
+      margin: auto;
+    }
+  
+    .dropdown-content {
+      position: static; /* Stack below the button on small screens */
+      min-width: auto;
+      max-width: 250px;
+    }
+  }
+
+.mb-prime{
+  border: 1px solid rgb(7, 7, 7);
+  background-color: rgb(24, 23, 23);
+  border-width: 5px;
+  border-radius: 9px;
+  color: #f1f1f1;
+  /* width: 70%; */
+}
+.width{
+  width: 350px;
+  /* margin-left: 20px; */
+}
+  

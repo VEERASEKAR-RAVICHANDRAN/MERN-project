@@ -1,0 +1,64 @@
+/* Multiselect.css */
+
+/* Control Styling */
+.select-control {
+    border: none; /* Make borders invisible */
+    box-shadow: none; /* Remove shadow */
+    background-color: #f8f9fa; /* Light background color */
+    border-radius: 15px; /* Rounded corners */
+    transition: background-color 0.3s; /* Transition for background color */
+    height: 50px; /* Set height for the input field */
+    
+  }
+  
+  /* Focused State */
+  .select-control--is-focused {
+    background-color: #e9ecef; /* Change background color when focused */
+  }
+  
+  /* Hover State */
+  .select-control:hover {
+    background-color: #e9ecef; /* Change background color on hover */
+  }
+  
+  /* Dropdown Menu Styling */
+  .select-menu {
+    max-height: 300px; /* Set a maximum height for the dropdown */
+    overflow: hidden; /* Hide overflow to prevent scrolling */
+  }
+  
+  /* Option Styling */
+  .select-option {
+    color: #333; /* Dark text color for options */
+  }
+  
+  /* Selected Option Styling */
+  .select-option--is-selected {
+    background-color: #007bff; /* Background color for selected option */
+    color: white; /* Text color for selected option */
+  }
+  
+  /* Focused Option Styling */
+  .select-option--is-focused {
+    background-color: #e9ecef; /* Background color for focused option */
+  }
+  
+  /* Multi-Value Styling */
+  .select-multi-value {
+    background-color: #007bff; /* Background color for selected values */
+    color: white; /* Text color for selected values */
+    border-radius: 5px; /* Rounded corners for selected values */
+    padding: 5px 10px; /* Padding for selected values */
+  }
+  
+  /* Remove Button Styling */
+  .select-multi-value__remove {
+    cursor: pointer; /* Pointer cursor for remove button */
+    color: white; /* Remove button text color */
+    margin-left: 10px; /* Space between text and remove button */
+  }
+  
+  .select-multi-value__remove:hover {
+    color: #ff4d4d; /* Change color on hover for remove button */
+  }
+  

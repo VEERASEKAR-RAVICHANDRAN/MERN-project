@@ -1,0 +1,109 @@
+.pacifico-regular {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family:  sans-serif;
+  }
+  
+  .dropdown2{
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropbtn2 {
+    background-color: #d82626;
+    border-radius: 5px 5px 0px 0px;
+    color: white;
+    padding: 10px 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown-data {
+    display: none;
+    /* width: 300px; */
+    display: none;
+    font-size: 12px;
+    /* text-decoration: none; */
+    border-radius: 0px 10px 10px 10px;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    font-size:medium;
+  }
+  .width-prime{
+    width: 400px;
+  }
+  .width-login{
+    width: 250px;
+    font-size: 14px;
+  }
+  ul{
+    text-decoration: none;
+  }
+
+  /* .dropdown-content-1 {
+    display: none;
+    width: 250px;
+    border-radius: 0px 10px 10px 10px;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  } */
+  
+  .dropdown2:hover .dropdown-data  {
+    display: block;
+    /* background-color: #f1f1f1; */
+  }
+
+  .dropdown2:hover .dropbtn2 {
+    /* display: block; */
+    background-color: #f1f1f1;
+    color: #d82626;
+    
+  }
+  .margin-for-navitem{
+    /* float: inline-end; */
+    margin-left: 500px;
+  }
+  
+  .dropdown-data a {
+    color: black;
+    padding: 12px 16px;
+    /* text-decoration: none; */
+    display: block;
+  }
+  
+  .dropdown-data a:hover {
+    /* background-color: #f8afaf; */
+    color: red;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 600px) {
+    .dropbtn {
+      width: 100%;
+    }
+    .margin-for-navitem{
+      /* margin-left: none; */
+      margin: auto;
+    }
+  
+    .dropdown-data {
+      position: static; /* Stack below the button on small screens */
+      min-width: auto;
+      max-width: 250px;
+    }
+  }
